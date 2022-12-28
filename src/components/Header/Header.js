@@ -1,19 +1,22 @@
 import { Fragment } from "react";
+
+//imported image from the source folder in order to use inside the jsx
+import groceryShoppingImage from "../../assets/shopping.jpg";
+
+//used css modules to style header component.
 import classes from "./Header.module.css";
-import HeaderSignInButon from "./HeaderSignInButton";
-import HeaderCreateAccountButton from "./HeaderCreateAccountButton";
-import HeaderCartButton from "./HeaderCartButton";
 
 const Header = (props) => {
   return (
     <Fragment>
       <header className={classes.header}>
-        <ul></ul>
-        <h1>Simple Book Order App</h1>
-        <HeaderSignInButon />
-        <HeaderCreateAccountButton />
-        <HeaderCartButton />
+        <h1>Grocery Shopping </h1>
+        <button>Cart</button>
       </header>
+      {/*I can not use . notation again so I call my css like below. */}
+      <div className={classes["main-image"]}>
+        <img src={groceryShoppingImage} alt="" />
+      </div>
     </Fragment>
   );
 };
