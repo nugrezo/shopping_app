@@ -5,13 +5,14 @@ import groceryShoppingImage from "../../assets/shopping.jpg";
 
 //used css modules to style header component.
 import classes from "./Header.module.css";
+import HeaderCartButton from "./HeaderCartButton";
 
 const Header = (props) => {
   return (
     <Fragment>
       <header className={classes.header}>
         <h1>Grocery Shopping </h1>
-        <button>Cart</button>
+        <HeaderCartButton />
       </header>
       {/*I can not use . notation again so I call my css like below. */}
       <div className={classes["main-image"]}>
