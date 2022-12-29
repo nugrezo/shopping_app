@@ -13,9 +13,7 @@ const DUMMY_PRODUCTS = [
   {
     id: "p1",
     name: "American Cheese",
-    description:
-      "It is mild with a creamy and salty flavor" +
-      " has a medium- firm consistency, and has a low melting point.",
+    description: "It is mild with a creamy and salty flavor",
     price: 5.99,
     img: americanCheesePhoto,
   },

@@ -1,5 +1,6 @@
 import React from "react";
 import classes from "./ProductListItem.module.css";
+import ProductListItemForm from "./ProductListItemForm";
 
 const ProductListItem = (props) => {
   /*typing below is a helper function which will allow me to design price
@@ -23,6 +24,7 @@ const ProductListItem = (props) => {
           enter the amount of products that user wants to add to cart 
           and the button. This is done in another component and I called below.  
           */}
+        <ProductListItemForm />
       </div>
     </li>
   );
