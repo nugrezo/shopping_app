@@ -2,7 +2,7 @@ import { Fragment } from "react";
 import AvailableProducts from "./AvailabeProducts";
 import ProductListSummary from "./ProductListSummary";
 
-const GroceryProducts = (props) => {
+const ProductList = (props) => {
   return (
     <Fragment>
       <ProductListSummary />
@@ -11,4 +11,4 @@ const GroceryProducts = (props) => {
   );
 };
 
-export default GroceryProducts;
+export default ProductList;

@@ -12,7 +12,7 @@ const Header = (props) => {
     <Fragment>
       <header className={classes.header}>
         <h1>Grocery Shopping App </h1>
-        <HeaderCartButton />
+        <HeaderCartButton onClick={props.onShowCart} />
       </header>
       {/*I can not use . notation again so I call my css like below. */}
       <div className={classes["main-image"]}>
