@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/shopping_app/static/css/main.8b056473.css",
-    "main.js": "/shopping_app/static/js/main.9a6fbf78.js",
+    "main.css": "/shopping_app/static/css/main.eb71a9b2.css",
+    "main.js": "/shopping_app/static/js/main.948bea57.js",
     "static/js/787.6962f9d7.chunk.js": "/shopping_app/static/js/787.6962f9d7.chunk.js",
     "static/media/shopping.jpg": "/shopping_app/static/media/shopping.1729ed7210af218e19a7.jpg",
     "static/media/rice.png": "/shopping_app/static/media/rice.2b07fe16a86cb11871da.png",
@@ -11,12 +11,12 @@
     "static/media/americanCheese.jpg": "/shopping_app/static/media/americanCheese.983fe5853cc17ee3c586.jpg",
     "static/media/welnut.jpeg": "/shopping_app/static/media/welnut.e531dc14b19e8970f6ff.jpeg",
     "index.html": "/shopping_app/index.html",
-    "main.8b056473.css.map": "/shopping_app/static/css/main.8b056473.css.map",
-    "main.9a6fbf78.js.map": "/shopping_app/static/js/main.9a6fbf78.js.map",
+    "main.eb71a9b2.css.map": "/shopping_app/static/css/main.eb71a9b2.css.map",
+    "main.948bea57.js.map": "/shopping_app/static/js/main.948bea57.js.map",
     "787.6962f9d7.chunk.js.map": "/shopping_app/static/js/787.6962f9d7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b056473.css",
-    "static/js/main.9a6fbf78.js"
+    "static/css/main.eb71a9b2.css",
+    "static/js/main.948bea57.js"
   ]
 }
