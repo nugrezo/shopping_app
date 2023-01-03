@@ -39,7 +39,7 @@
 .actions button:active {
   background-color: rgb(255, 247, 0);
   border-color: rgb(161, 12, 148);
-  color: rgb(244, 110, 110);
+  color: rgb(161, 12, 148);
 }
 
 .actions .button--alt {
@@ -49,4 +49,10 @@
 .actions .button {
   background-color: rgb(255, 247, 0);
   color: rgb(161, 12, 148);
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #b59b03;
+  border-color: #b59b03;
 }

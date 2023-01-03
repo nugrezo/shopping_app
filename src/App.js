@@ -7,6 +7,7 @@ import CartProvider from "./components/store/cartProvider";
 
 function App() {
   const [showCart, setShowCart] = useState(false);
+
   const showCartHandler = () => {
     setShowCart(true);
   };
@@ -14,9 +15,12 @@ function App() {
   const closeCartHandler = () => {
     setShowCart(false);
   };
+
   return (
     <CartProvider>
-      {showCart && <Cart onClose={closeCartHandler} />}
+      {showCart && (
+        <Cart onClose={closeCartHandler} onOrder={closeCartHandler} />
+      )}
       <Header onShowCart={showCartHandler} />
       <main>
         <ProductList />

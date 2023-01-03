@@ -3,6 +3,7 @@ import { useContext } from "react";
 import Modal from "../../UI/Modal";
 import CartContext from "../store/cart-context";
 import CartItem from "./CartItem";
+import CartOrderButton from "./CartOrderButton";
 
 const Cart = (props) => {
   const cartCtx = useContext(CartContext);
@@ -44,7 +45,7 @@ const Cart = (props) => {
         <button className={classes["button--alt"]} onClick={props.onClose}>
           Close
         </button>
-        {hasItems && <button className={classes.button}>Order</button>}
+        {hasItems && <CartOrderButton onClick={props.onOrder} />}
       </div>
     </Modal>
   );
